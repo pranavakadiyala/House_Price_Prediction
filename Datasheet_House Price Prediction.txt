@@ -26,7 +26,7 @@ Data Features:
 
 
 Target Variable:
-        price: price of the house
+*price: price of the house
 
 
 Data Format:
