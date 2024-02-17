@@ -1,0 +1,59 @@
+﻿Datasheet
+Dataset Name: Housing Prices Dataset
+
+
+Description:
+This data contains information about the price and various features of a house.
+
+
+Source:
+The dataset was obtained from kaggle. This dataset was uploaded in a csv format for regression analysis. 
+Link: https://www.kaggle.com/datasets/yasserh/housing-prices-dataset
+
+
+Data Features:
+* area: area of the house
+* bedroom: number of house bedrooms
+* bathrooms: number of bathrooms in the house
+* stories: number of house stories
+* mainroad: whether connected to a main road or not (yes/no)
+* guestroom: whether has a guestroom or not (yes/no)
+* basement: whether has a basement or not (yes/no)
+* hotwaterheating: whether has a hot water heater or not (yes/no)
+* airconditioning: whether has air conditioning or not (yes/no)
+* parking: number of parking spaces
+* prefarea: prefarea of the house
+
+
+Target Variable:
+        price: price of the house
+
+
+Data Format:
+CSV
+
+
+Data Size:
+29.98Kb
+
+
+Data Cleaning:
+Minimal cleaning required. No missing values. Categorical values were converted to dummies for regression analysis.
+
+
+Exploratory Data Analysis (EDA):
+For categorical variables I generated value counts, for continuous variables I generated summary statistics that showed min, max, mean, std, count, and quintile values. 
+
+
+Usage Restrictions:
+Open to the public, no restrictions. 
+
+
+License:
+CC0: Public Domain
+
+
+References:
+Harrison, D. and Rubinfeld, D.L. (1978) Hedonic prices and the demand for clean air. J. Environ. Economics and Management 5, 81–102.
+
+Belsley D.A., Kuh, E. and Welsch, R.E. (1980) Regression Diagnostics. Identifying Influential Data and Sources of Collinearity. New York: Wiley.
